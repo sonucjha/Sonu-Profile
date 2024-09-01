@@ -1,0 +1,15 @@
+/* style.css or app.css */
+.page-title {
+    /* font-size: 32px;
+    color: #3490dc;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px; */
+    font-size: 32px;
+    color: #3490dc;
+    font-family: Muli-Bold;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
