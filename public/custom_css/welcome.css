@@ -1,24 +1,36 @@
 /* style.css or app.css */
 .page-title {
-    /* font-size: 32px;
-    color: #3490dc;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 20px; */
     font-size: 32px;
-    color: #3490dc;
+    /* color: #3490dc; */
+    color: #FF2D20;
     font-family: Muli-Bold;
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     padding-bottom: 10px;
     background: linear-gradient(to right, white, lightpink);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 88%;
 }
 
+.icon { /* Set the height of the icon */
+    width: 2rem;
+    height: 2.5rem;
+    fill: #FF2D20; /* Red color */
+}
 
+.image-container {
+    background-image: url('path/to/your/image.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.image-container img {
+    width: 100%; /* Make image take the full width of the div */
+    height: 100%; /* Make image take the full height of the div */
+    object-fit: cover; /* Cover the div without distortion */
+}
 
 
 
