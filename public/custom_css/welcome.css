@@ -13,6 +13,10 @@
     width: 88%;
 }
 
+.flex-center{
+    justify-content: center;
+}
+
 .icon { /* Set the height of the icon */
     width: 2rem;
     height: 2.5rem;
