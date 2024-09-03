@@ -27,10 +27,10 @@
             <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
                 <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
                     <div class="flex lg:justify-center lg:col-start-2">
-                        @include('welcome_page_title')
+                        @include('welcome.welcome_page_title')
                     </div>
                     @if (Route::has('login'))
-                        @include('after_login')
+                        @include('welcome.after_login')
                     @endif
                 </header>
 
@@ -38,11 +38,11 @@
                     <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
 
                         {{-- left model part --}}
-                        @include('welcome_page_left')
+                        @include('welcome.welcome_page_left')
 
 
                         {{-- right model part --}}
-                        @include('welcome_page_right')
+                        @include('welcome.welcome_page_right')
                     </div>
                 </main>
                 <main class="mt-6">
@@ -70,7 +70,7 @@
                 </main>
 
                 {{-- footer --}}
-                @include('welcome_footer')
+                @include('welcome.welcome_footer')
             </div>
         </div>
     </div>
