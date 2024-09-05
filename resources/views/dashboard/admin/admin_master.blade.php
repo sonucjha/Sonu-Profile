@@ -42,10 +42,10 @@
         <div id="layout-wrapper">
 
             
-          {{-- @include('dashboard.admin.body.header') --}}
+          @include('dashboard.admin.admin_header')
 
             <!-- ========== Left Sidebar Start ========== -->
-           {{-- @include('dashboard.admin.body.sidebar') --}}
+           @include('dashboard.admin.admin_left_sidebar')
             <!-- Left Sidebar End -->
 
             
