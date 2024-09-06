@@ -9,7 +9,7 @@
                 <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-md rounded-circle">
             </div>
             <div class="mt-3">
-                <h4 class="font-size-16 mb-1">Julia Hudda</h4>
+                <h4 class="font-size-16 mb-1">Sonu Jha</h4>
                 <span class="text-muted"><i class="ri-record-circle-line align-middle font-size-14 text-success"></i> Online</span>
             </div>
         </div>
@@ -18,62 +18,30 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <li class="menu-title">Menu</li>
+                {{-- <li class="menu-title">Menu</li> --}}
 
                 <li>
-                    <a href="index.html" class="waves-effect">
-                        <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">3</span>
-                        <span>Dashboard</span>
+                    <a href="betuvideo.html" class="waves-effect">
+                        <span>Betu Video</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="calendar.html" class=" waves-effect">
-                        <i class="ri-calendar-2-line"></i>
-                        <span>Calendar</span>
+                    <a href="betuphoto.html" class=" waves-effect">
+                        <span>Betu Photo</span>
                     </a>
                 </li>
     
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-mail-send-line"></i>
-                        <span>Email</span>
+                    <a href="sonucv.html" class=" waves-effect">
+                        <span>Sonu CV</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html">Inbox</a></li>
-                        <li><a href="email-read.html">Read Email</a></li>
-                    </ul>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-layout-3-line"></i>
-                        <span>Layouts</span>
+                    <a href="familyphotovideo.html" class=" waves-effect">
+                        <span>All Family Photo & Video</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="true">
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow">Vertical</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
-                                <li><a href="layouts-compact-sidebar.html">Compact Sidebar</a></li>
-                                <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
-                                <li><a href="layouts-boxed.html">Boxed Layout</a></li>
-                                <li><a href="layouts-preloader.html">Preloader</a></li>
-                                <li><a href="layouts-colored-sidebar.html">Colored Sidebar</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow">Horizontal</a>
-                            <ul class="sub-menu" aria-expanded="true">
-                                <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                                <li><a href="layouts-hori-topbar-light.html">Topbar light</a></li>
-                                <li><a href="layouts-hori-boxed-width.html">Boxed width</a></li>
-                                <li><a href="layouts-hori-preloader.html">Preloader</a></li>
-                                <li><a href="layouts-hori-colored-header.html">Colored Header</a></li>
-                            </ul>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
