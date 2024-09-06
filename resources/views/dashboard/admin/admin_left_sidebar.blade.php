@@ -21,27 +21,43 @@
                 {{-- <li class="menu-title">Menu</li> --}}
 
                 <li>
-                    <a href="betuvideo.html" class="waves-effect">
-                        <span>Betu Video</span>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="ri-mail-send-line"></i>
+                        <span>BETU VIDEO</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="email-inbox.html">SEE VIDEO</a></li>
+                        <li><a href="email-read.html">UPLOAD VIDEO</a></li>
+                    </ul>
                 </li>
 
                 <li>
-                    <a href="betuphoto.html" class=" waves-effect">
-                        <span>Betu Photo</span>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="ri-mail-send-line"></i>
+                        <span>BETU PHOTO</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="email-inbox.html">SEE PHOTO</a></li>
+                        <li><a href="email-read.html">UPLOAD PHOTO</a></li>
+                    </ul>
                 </li>
     
                 <li>
-                    <a href="sonucv.html" class=" waves-effect">
+                    <a href="sonucv.html" class="has-arrow waves-effect">
+                        <i class="ri-mail-send-line"></i>
                         <span>Sonu CV</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="familyphotovideo.html" class=" waves-effect">
-                        <span>All Family Photo & Video</span>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="ri-mail-send-line"></i>
+                        <span>FAMILY PHOTO</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="email-inbox.html">SEE FAMILY PHOTO</a></li>
+                        <li><a href="email-read.html">UPLOAD FAMILY PHOTO</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
