@@ -16,16 +16,16 @@ class RedirectIfUrlChanged
     public function handle(Request $request, Closure $next): Response
     {
         // Define a list of allowed URLs or patterns
+        
         $allowedUrls = [
-            '/',
-            '/admin-dashboard'
+            'admin-dashboard'
             // Add other allowed URLs here
         ];
-
+         
         // Check if the current URL is not in the allowed URLs
         if (!in_array($request->path(), $allowedUrls)) {
             // Redirect to home page
-            return redirect('/');
+            return redirect('/admin-dashboard');
         }
 
         return $next($request);
