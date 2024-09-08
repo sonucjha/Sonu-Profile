@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class RedirectIfApiCallFails
+class RedirectIfUrlChanged
 {
     /**
      * Handle an incoming request.
@@ -15,13 +15,19 @@ class RedirectIfApiCallFails
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $response = $next($request);
+        // Define a list of allowed URLs or patterns
+        $allowedUrls = [
+            '/',
+            '/admin-dashboard'
+            // Add other allowed URLs here
+        ];
 
-        // Example: Check if the route is valid or return a 404 response
-        if ($response->status() == 404 || $response->status() == 401) {
+        // Check if the current URL is not in the allowed URLs
+        if (!in_array($request->path(), $allowedUrls)) {
+            // Redirect to home page
             return redirect('/');
         }
 
-        return $response;
+        return $next($request);
     }
 }

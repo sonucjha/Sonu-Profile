@@ -8,4 +8,4 @@ Route::get('/', function () {
 
 Route::get('/admin-dashboard', function () {
     return view('dashboard.admin.index');
-})->middleware('checkStatus');
+});
