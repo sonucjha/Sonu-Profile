@@ -18,7 +18,16 @@ class RedirectIfUrlChanged
         // Define a list of allowed URLs or patterns
         
         $allowedUrls = [
-            'admin-dashboard'
+            'admin-dashboard',
+            'see-betu-photo',
+            'upload-betu-photo',
+            'see-betu-video',
+            'upload-betu-video',
+            'betu-cv',
+            'see-family-photo',
+            'upload-family-photo',
+            'see-family-video',
+            'upload-family-video'
             // Add other allowed URLs here
         ];
          

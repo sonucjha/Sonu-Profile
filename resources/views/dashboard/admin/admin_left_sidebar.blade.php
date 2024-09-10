@@ -26,8 +26,8 @@
                         <span>BETU VIDEO</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a  href="{{ url('/betu-video') }}">SEE VIDEO</a></li>
-                        <li><a  href="{{ url('/betu-video-upload') }}">UPLOAD VIDEO</a></li>
+                        <li><a  href="{{ url('/see-betu-video') }}">SEE VIDEO</a></li>
+                        <li><a  href="{{ url('/upload-betu-video') }}">UPLOAD VIDEO</a></li>
                     </ul>
                 </li>
 
@@ -37,8 +37,8 @@
                         <span>BETU PHOTO</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a  href="{{ url('/betu-photo') }}">SEE PHOTO</a></li>
-                        <li><a  href="{{ url('/betu-photo-upload') }}">UPLOAD PHOTO</a></li>
+                        <li><a  href="{{ url('/see-betu-photo') }}">SEE PHOTO</a></li>
+                        <li><a  href="{{ url('/upload-betu-photo') }}">UPLOAD PHOTO</a></li>
                     </ul>
                 </li>
     
@@ -55,8 +55,8 @@
                         <span>FAMILY PHOTO</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a  href="{{ url('/family-photo') }}">SEE FAMILY PHOTO</a></li>
-                        <li><a  href="{{ url('/family-photo-upload') }}">UPLOAD FAMILY PHOTO</a></li>
+                        <li><a  href="{{ url('/see-family-photo') }}">SEE FAMILY PHOTO</a></li>
+                        <li><a  href="{{ url('/upload-family-photo') }}">UPLOAD FAMILY PHOTO</a></li>
                     </ul>
                 </li>
             </ul>
