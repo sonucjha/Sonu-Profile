@@ -43,6 +43,12 @@
   align-items: center;      /* Center vertically */
 }
 
+.user-profile-image{
+      display: flex;
+      flex-direction: column; /* Aligns the child elements vertically */
+      justify-content: center; /* Optional: centers the items vertically */
+      align-items: center;
+}
 
 
 
