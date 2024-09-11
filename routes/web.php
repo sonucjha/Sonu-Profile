@@ -27,6 +27,14 @@ Route::get('/upload-betu-video', function () {
 Route::get('/betu-cv', function () {
     return view('betu_cv');
 });
+
+Route::get('/see-cv', function () {
+    return view('see_cv');
+});
+Route::get('/upload-cv', function () {
+    return view('upload_cv');
+});
+
 Route::get('/see-family-photo', function () {
     return view('FAMILY_PHOTO.see_photo');
 });

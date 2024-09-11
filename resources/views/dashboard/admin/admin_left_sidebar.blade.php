@@ -47,6 +47,10 @@
                         <i class="ri-mail-send-line"></i>
                         <span>Sonu CV</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a  href="{{ url('/see-cv') }}">SEE CV</a></li>
+                        <li><a  href="{{ url('/upload-cv') }}">UPLOAD CV</a></li>
+                    </ul>
                 </li>
 
                 <li>
