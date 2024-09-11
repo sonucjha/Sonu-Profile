@@ -43,7 +43,7 @@
                 </li>
     
                 <li>
-                    <a  href="{{ url('/betu-cv') }}" class="has-arrow waves-effect">
+                    <a  href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="ri-mail-send-line"></i>
                         <span>Sonu CV</span>
                     </a>
