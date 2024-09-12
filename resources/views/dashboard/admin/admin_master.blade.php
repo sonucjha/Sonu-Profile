@@ -55,7 +55,7 @@
     <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
     <!-- Begin page -->
-    <div id="layout-wrapper blurred">
+    <div id="layout-wrapper">
 
 
         @include('dashboard.admin.admin_header')
@@ -69,7 +69,7 @@
         <!-- ============================================================== -->
         <!-- Start right Content here -->
         <!-- ============================================================== -->
-        <div class="main-content">
+        <div class="main-content blurred">
 
             @yield('admin')
             <!-- End Page-content -->
