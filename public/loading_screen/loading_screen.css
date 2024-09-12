@@ -20,7 +20,7 @@
 
 /* Blur and dim the background content */
 .blurred {
-    filter: blur(5px);
+    filter: blur(25px);
     pointer-events: none; /* Prevent clicking on blurred elements */
 }
 
