@@ -49,12 +49,13 @@
 <body data-topbar="dark">
 
     <!-- Loader Element -->
+    <div id="overlay"></div>
     <div id="loader"></div>
 
     <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
     <!-- Begin page -->
-    <div id="layout-wrapper">
+    <div id="layout-wrapper blurred">
 
 
         @include('dashboard.admin.admin_header')

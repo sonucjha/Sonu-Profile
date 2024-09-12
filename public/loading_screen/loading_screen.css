@@ -1,30 +1,46 @@
-        /* Basic CSS for the loader */
-        #loader {
-            position: fixed;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 9999;
-            width: 100px;
-            height: 100px;
-            border: 10px solid #f3f3f3;
-            border-top: 10px solid #3498db;
-            border-radius: 50%;
-            animation: spin 2s linear infinite;
-        }
+/* Loader styling */
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
-        /* Hide content initially */
-        body {
-            visibility: hidden;
-        }
+/* Blur and dim the background content */
+.blurred {
+    filter: blur(5px);
+    pointer-events: none; /* Prevent clicking on blurred elements */
+}
 
-        /* Show body when the page is loaded */
-        body.loaded {
-            visibility: visible;
-        }
- 
+/* Overlay to darken the content slightly */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 9998;
+}
+
+/* Hide the body initially, will be shown when loading is done */
+body.loaded .blurred {
+    filter: none;
+    pointer-events: auto;
+}
+
+body.loaded #overlay, body.loaded #loader {
+    display: none;
+}
